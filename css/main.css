@@ -1,0 +1,553 @@
+*{
+	margin: 0px 35px 0px 50px;
+	padding: 0px;
+}
+
+body{
+	background-image: url(../img/Background/pattern.jpg);
+}
+
+#logo{
+	position: absolute;
+	margin: 72px 0px 0px -325px;
+}
+
+#logo:hover, #logo:active{
+	margin: 115px 0px 0px -333px;	
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Navigation Tag */
+#nav{
+	width: 1000px;
+}
+
+#topic{
+	display: block;
+	text-align: center;
+	background-color: #00ac71;
+	margin: -4px 0px 0px 50px;
+	width: 1000px;
+}
+
+#topicList{
+	display: block;
+	color: #FFFFFF;	
+	text-align: center;
+	font-family: Bradley Hand ITC;
+	font-weight: bold;
+}
+
+#topicList:link, #topicList:visited{
+	text-decoration: none;
+} 
+
+#topicList:hover, #topicList:active{
+	color: #000000;
+}
+
+#new1{
+	height: 74px;
+	width: 74px;
+	margin: -73px 0px 0px 777px;
+	position: absolute;
+}
+
+#new2{
+	height: 74px;
+	width: 74px;
+	margin: -73px 0px 0px 873px;
+	position: absolute;
+}
+
+#nav ul{
+	list-style: none;
+	margin: -4px 0px 0px 0px;
+	padding: 3px 3px 3px 3px;
+	overflow: hidden;   
+	color: #FFFFFF;
+	background-color: #00ac71;
+}
+
+#nav li{
+	float: left;
+	font-size: 1.05em;
+	margin-left: 26px;
+	text-transform: uppercase;
+	width: 40px;	
+}
+
+.List{
+	display: block;
+	color: #FFFFFF;	
+	text-align: center;
+	font-family: Calibri;
+	width: 0px;
+}
+
+.List:link, .List:visited{
+	text-decoration: none;
+} 
+
+.List:hover, .List:active{
+	color: #000000;
+}
+/* This is For the Navigation Tag */
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of index.html Page*/
+#content1{
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: Calibri;
+	line-height: 1.25em;
+
+}
+
+#fparagraph{
+	text-align: justify;
+	margin-bottom: 40px;
+	font-family: sans-serif;
+	line-height: 1.85em;
+}
+
+#lparagraph{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: justify;
+	margin-bottom: 40px;
+	font-family: sans-serif;
+	line-height: 1.85em;
+}
+/* This is For the Content Tag of index.html Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of menu.html Page*/
+
+#content2{
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: Calibri;
+}
+
+.para{
+	background-color: #00ac71;
+	text-align: center;
+	font-family: sans-serif; 
+	width: 910px;
+	height: 56px;
+	color: #ffffff;
+	font-size: 36px;
+	padding: 20px 0px 0px 0px;
+}
+
+.share{
+	background-color: #00ac71;
+	margin-top: -5px;
+	font-family: sans-serif;
+	padding: 5px 0px 0px 7px;
+}
+
+.sharelist{
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+.sharelist:link, .sharelist:visited{
+	text-decoration: none;
+} 
+
+.sharelist:hover, .sharelist:active{
+	color: #000000;
+}
+/* This is For the Content Tag of menu.html Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of event.html Page*/
+
+#content3{
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: Calibri;
+	line-height: 1.85em;
+}
+
+.paragraph3{
+	text-align: justify;
+	font-family: sans-serif;
+}
+
+h2, h3{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/* This is For the Content Tag of event.html Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of press.html Page*/
+
+#content4{
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: Calibri;
+	line-height: 1.85em;
+}
+
+#paragraph4{
+	font-family: sans-serif;
+	line-height: 2.25em;
+}
+
+/* This is For the Content Tag of press.html Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of aboutus.html Page*/
+
+#content5{
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: sans-serif;
+	line-height: 1.85em;
+}
+
+#location{
+	text-align: center;
+}
+
+/* This is For the Content Tag of aboutus.html Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of location.html Page */
+
+#content6{
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: sans-serif;
+	line-height: 1.85em;
+}
+
+#location{
+	text-align: center;
+}
+
+/* This is For the Content Tag of Location.html Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of Contact.html Page */
+
+#content7{
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: sans-serif;
+	line-height: 1.85em;
+}
+
+/* This is For the Content Tag of Contact.html Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of Today's Special Page*/
+
+#content8{
+	height: auto;
+	border: 2px solid #00ac71;
+	width: 996px;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 50px 0px;
+	font-family: Californian FB, sans-serif;
+	line-height: 1.85em;
+}
+
+#specialmenu{
+	background-color: #00ac71;
+	text-align: center;
+	font-family: sans-serif; 
+	width: 910px;
+	height: 56px;
+	color: #ffffff;
+	font-size: 36px;
+	padding: 20px 0px 0px 0px;
+}
+
+#imageslider{
+	cursor: pointer;
+	width: 910px;
+	height: 500px;
+	margin: 0px 0px 0px 50px;
+
+}
+
+#imageslidercaption{
+	background-color: #00ac71;
+	text-align: center;
+	font-family: sans-serif; 
+	width: 910px;
+	height: 56px;
+	color: #ffffff;
+	font-size: 36px;
+	padding: 20px 0px 0px 0px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+
+#tobeordered{
+	text-align: center;
+}
+
+#myForm2{
+	border: 1px solid black;
+	background-color: #a9a988;
+}
+
+#ordered{
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#fbutton{
+	height: 41px;
+	margin: 0px 0px 0px 226px;
+	font-size: 22px;
+}
+
+#selectbutton{
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	margin: 0px 0px 0px 352px;
+}
+
+#sbutton{
+	width: 313px;
+	background: #3e9cbf; 
+	padding: 8px 14px 10px; 
+	margin: 0px 0px 30px 125px;
+	border: 1px solid #3e9cbf; 
+	cursor: pointer; 
+	font-size: 1.5em;
+	font-family: sans-serif; 
+	color: #fff;
+	border-radius: 10px;
+}
+
+#rbutton{
+	width: 313px;
+	background: #3e9cbf; 
+	padding: 8px 14px 10px; 
+	margin: 41px 0px 0px 44px;
+	border: 1px solid #3e9cbf; 
+	cursor: pointer; 
+	font-size: 1.5em;
+	font-family: sans-serif; 
+	color: #fff;
+	border-radius: 10px;
+}
+
+/* This is For the Content Tag of Today's Special Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Content Tag of Form Page*/
+
+#content9{
+	height: auto;	
+	width: 996px;
+	border: 2px solid #00ac71;
+	margin: 0px 0px 0px 50px;
+	padding: 50px 0px 0px 0px;
+	font-family: Californian FB, sans-serif;
+}
+
+#myForm{
+	font-size: 1.5em;
+	border: 2px solid black;
+	font-family: Californian FB, sans-serif;
+	background-color: #a9a988;
+}
+
+.formdetail1{
+	height: 35px;
+	margin: 0px 0px 0px 226px;
+	font-size: 22px;
+}
+
+.formdetailheader{
+	text-align: center;
+}
+
+#formdetail2{
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	margin: 0px 0px 0px 352px;
+}
+
+#formdetail3{
+	background: transparent;
+	width: 200px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	margin: 0px 0px 0px 49px;
+}
+
+#formdetail4{
+	background: transparent;
+	width: 200px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	margin: 0px 0px 0px 80px;
+}
+
+#formdetail5{
+	background: transparent;
+	width: 200px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	margin: 0px 0px 0px 100px;
+}
+
+#formdetail6{
+	text-align: center;
+}
+
+#formdetail7{
+	height: 35px;
+	margin: 0px 0px 0px 323px;
+	font-size: 22px;
+}
+
+#formdetail8{
+	margin: -9px 0px 0px 181px;
+	content: '';
+	width: 16px;
+	height: 16px;
+	opacity: 0.4;
+}
+
+#formdetail9{
+	margin: -15px 0px 0px 258px;
+}
+
+#formdetail10{
+	width: 313px;
+	background: #3e9cbf; 
+	padding: 8px 14px 10px; 
+	margin: 0px 0px 40px 125px;
+	border: 1px solid #3e9cbf; 
+	cursor: pointer; 
+	font-size: 1.5em;
+	font-family: sans-serif; 
+	color: #fff;
+	border-radius: 10px;
+}
+
+#formdetail11{
+	width: 313px;
+	background: #3e9cbf; 
+	padding: 8px 14px 10px; 
+	margin: 41px 0px 0px 44px;
+	border: 1px solid #3e9cbf; 
+	cursor: pointer; 
+	font-size: 1.5em;
+	font-family: sans-serif; 
+	color: #fff;
+	border-radius: 10px;
+}
+
+#formlist{
+	border: 2px solid black;
+	font-family: Californian FB, sans-serif;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+/* This is For the Content Tag of Form Page*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is For the Footer Tag */
+
+#low_footer{
+	clear:both;
+	border-top: 2px solid #00ac71;
+	margin-top: -2px;
+	width: 979px;
+	padding: 3px 6px 4px 8px;
+	font-family: Californian FB;
+}
+
+#low_footer ul{
+	list-style: none;
+}
+
+.iconlist{
+	margin-left: -98px;
+}
+
+#hlinef{
+	width: 1000px;
+	color: green;
+	margin: 0px 0px 0px -7px;
+}
+
+#last_sentence{
+	clear: both;
+	text-align: center;
+}
+
+/* This is For the Footer Tag */
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

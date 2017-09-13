@@ -1,0 +1,113 @@
+<!-- Name: Sulabh Shrestha -->
+<!-- ID: 4007581415 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Monsieur Benjamin</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+	</head>
+	<body>
+		<div id="container">
+				<img src="../img/Heading/Heading.png" height="300px" width="1000px">
+				<a id="logo" href="../index.html"><img src="../img/Logo/Logo.png" height="210px" width="230px"></a>
+				
+			<div id="topic">										<!-- This is for the Heading of Navigation Bar -->
+				<h1><a id="topicList" href="../index.html">Monsieur Benjamin</a></h1>
+			</div>
+			
+			<div id="new">										<!-- This is the NEW! Logo -->
+				<img id="new1" src="../img/New/new.png" />
+				<img id="new2" src="../img/New/new.png" />
+			</div>
+			<div id="nav">											<!-- This is for the Navigation Bar -->
+				<ul>
+					<li><a class="List" href="../index.html">Home</a></li>
+					<li><a class="List" href="menu.html">Menus</a></li>
+					<li><a class="List" href="event.html">Events</a></li>
+					<li><a class="List" href="press.html">Press</a></li>
+					<li><a class="List" href="location.html">Location</a></li>
+					<li><a class="List" href="contact.html">Contact</a></li>
+					<li><a class="List" href="aboutus.html">AboutUs</a></li>
+					<li><a class="List" href="form.html">Member</a></li>
+					<li><a class="List" href="todayspecial.html">Special</a></li>
+				</ul>
+			</div>
+			
+			<div id="content9">										<!-- This is for the main Content of the Page -->
+				<h2>Please enter your personal details:</h2>
+				<form id="myForm" name="myForm">
+					<br />
+					<p class="formdetailheader">First name</p><input  class="formdetail1" type="text" name="Firstname" size="40px" maxlength="30" /><br /><br />
+					<p class="formdetailheader">Last name</p><input class="formdetail1" type="text" name="Lastname" size="40px" maxlength="30" /><br /><br />
+					<p class="formdetailheader">User name</p><input class="formdetail1" type="text" name="Username" size="40px" maxlength="40" /><br /><br />
+					<p class="formdetailheader">Password</p><input class="formdetail1" type="password" name="Password" size="40px" maxlength="40" /><br /><br />
+					<p class="formdetailheader">Re-enter Password</p><input class="formdetail1" type="password" name="Password" size="40px" maxlength="40" /><br /><br />
+					<p class="formdetailheader">Country/Region</p>
+					<select name="Country" id="formdetail2">
+						<option>Nepal</option>
+						<option>China</option>
+						<option>Japan</option>
+						<option>United States</option>
+						<option>Nigeria</option>
+						<option>Finland</option>
+						<option>Sweden</option>
+					</select><br /><br />
+					<p class="formdetailheader">Birth Date</p><br />
+					<select name="Year" id="formdetail3">
+						<option>1992</option>
+						<option>1993</option>
+						<option>1994</option>
+						<option>1995</option>
+						<option>1996</option>
+						<option>1997</option>
+						<option>1998</option>
+					</select>
+					<select name="Month" id="formdetail4">
+						<option>June</option>
+						<option>July</option>
+						<option>August</option>
+						<option>September</option>
+						<option>October</option>
+						<option>November</option>
+						<option>December</option>						
+					</select>
+					<select name="Day" id="formdetail5">
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+					</select><br/>
+					<p class="formdetailheader">Gender</p><br/>
+					<p id="formdetail6">Male <input type="radio" name="Gender" value="Male"> 
+					Female <input type="radio" name="Gender" value="Female"><br /></p>
+					<p class="formdetailheader">Phone number</p><input id="formdetail7" type="number" name="Phonenumber" size="40px" maxlength="30" /></p><br />
+					<p class="formdetailheader">Email address</p><input class="formdetail1" type="text" name="EmailAddress" size="40px" maxlength="30" /></p><br />
+					<p class="formdetailheader">Enter the bio about yourself</p><br />
+					<textarea rows="5" cols="113"></textarea><br /><br />
+					<p id="formdetail8"><input type="Checkbox" name="Checkbox" value="Subscription" ></p><p id="formdetail9">I would like to subscribe to your newsletter</p>
+					<input id="formdetail10" type="button" onclick="validate()" value="Submit" />
+					<input id="formdetail11" type="button" onclick="removetext()" value="Reset" />	<br/>
+				</form>
+				<p id="formlist"></p>
+			</div>
+
+			<footer id="low_footer">						<!-- This is for the footer -->
+				Contact us For More Info: 
+				<ul id="footerlist">
+					<li><img class="iconlist" src="../img/Icons/Social/Facebook.png" height="15px" width="15px" />Facebook</li>
+					<li><img class="iconlist" src="../img/Icons/Social/Twitter.png" height="15px" width="15px" />Twitter</li>				
+					<li><img class="iconlist" src="../img/Icons/Social/Instagram.png" height="15px" width="15px" />Instagram</li>				
+					<li><img class="iconlist" src="../img/Icons/Social/Pinterest.jpg" height="15px" width="15px" />Pinterest</li>
+				</ul>
+				<hr id="hlinef">
+				<p id="last_sentence">Copyright © 2015. All Rights Received</p>
+			</footer>
+
+		</div>
+		<script type="text/javascript" src="../js/script.js"></script>
+	</body>
+</html>

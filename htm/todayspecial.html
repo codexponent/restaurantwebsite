@@ -1,0 +1,80 @@
+<!-- Name: Sulabh Shrestha -->
+<!-- ID: 4007581415 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Monsieur Benjamin</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+	</head>
+	<body onload="slide()">
+		<div id="container">
+				<img src="../img/Heading/Heading.png" height="300px" width="1000px">
+				<a id="logo" href="../index.html"><img src="../img/Logo/Logo.png" height="210px" width="230px"></a>
+				
+			<div id="topic">										<!-- This is for the Heading of Navigation Bar -->
+				<h1><a id="topicList" href="../index.html">Monsieur Benjamin</a></h1>
+			</div>
+			
+			<div id="new">										<!-- This is the NEW! Logo -->
+				<img id="new1" src="../img/New/new.png" />
+				<img id="new2" src="../img/New/new.png" />
+			</div>
+			<div id="nav">											<!-- This is for the Navigation Bar -->
+				<ul>
+					<li><a class="List" href="../index.html">Home</a></li>
+					<li><a class="List" href="menu.html">Menus</a></li>
+					<li><a class="List" href="event.html">Events</a></li>
+					<li><a class="List" href="press.html">Press</a></li>
+					<li><a class="List" href="location.html">Location</a></li>
+					<li><a class="List" href="contact.html">Contact</a></li>
+					<li><a class="List" href="aboutus.html">AboutUs</a></li>
+					<li><a class="List" href="form.html">Member</a></li>
+					<li><a class="List" href="todayspecial.html">Special</a></li>
+				</ul>
+			</div>
+			
+			<div id="content8">										<!-- This is for the main Content of the Page -->
+				<p id="specialmenu"> Todays Special </p>
+				<img id="imageslider" src="../img/Special/img1.jpg" onclick="order()" />
+				<p id="imageslidercaption" onclick="order()" >Gourment Pizza</p><br />
+				<h2 id="tobeordered">Place your order here</h2>
+				<form id="myForm2">
+					<br />
+					<h2>Full Name</h2><br /><input id="fbutton" type="text" name="Name" size="40px" maxlength="50" /><br /><br />
+					<h2>Select Your Order or Click on the Food</h2>
+					<select id="selectbutton" name="order">
+						<option>Select...</option>
+						<option>Gourment Pizza</option>
+						<option>Burger</option>
+						<option>Pie</option>
+						<option>Berry Cake</option>
+						<option>Sliced Fish</option>
+						<option>Kobe Beef</option>
+						<option>Meat</option>
+						<option>Diced Meat</option>
+						<option>Paneer</option>
+						<option>Lava Cake</option>
+					</select><br />
+					<input id="sbutton" type="button" onclick="addtext2()" value="Submit" />
+					<input id="rbutton" type="button" onclick="removetext2()" value="Reset" />
+				</form>
+				<p id="ordered"></p>
+			</div>
+
+			<footer id="low_footer">						<!-- This is for the footer -->
+				Contact us For More Info: 
+				<ul id="footerlist">
+					<li><img class="iconlist" src="../img/Icons/Social/Facebook.png" height="15px" width="15px" />Facebook</li>
+					<li><img class="iconlist" src="../img/Icons/Social/Twitter.png" height="15px" width="15px" />Twitter</li>				
+					<li><img class="iconlist" src="../img/Icons/Social/Instagram.png" height="15px" width="15px" />Instagram</li>				
+					<li><img class="iconlist" src="../img/Icons/Social/Pinterest.jpg" height="15px" width="15px" />Pinterest</li>
+				</ul>
+				<hr id="hlinef">
+				<p id="last_sentence">Copyright © 2015. All Rights Received</p>
+			</footer>
+
+		</div>
+		<script type="text/javascript" src="../js/script.js"></script>
+	</body>
+</html>
